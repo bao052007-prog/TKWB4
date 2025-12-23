@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Form phản hồi</h3>
+    <form method="get">
+        <label>Họ tên:</label><br>
+        <input name="name" type="text" value=""><br>
+
+        <label>Email:</label><br>
+        <input name="pass" type="password" value=""><br>
+        <b>Độ tuổi</b><br>
+        <select name="tuoi">
+            <option value="1">0->10</option>
+            <option value="2">10->18</option>
+            <option value="3">>=18</option>
+        </select><br>
+        <b>Giới tính:</b><br>
+        <input type="radio" name="gioitinh" value="Nam" />Nam<br>
+        <input type="radio" name="gioitinh" value="Nữ" />Nữ<br>
+
+        <b>Mức độ hài lòng:</b><br>
+        <input type="checkbox" name="nguoidung" value="Rất hài lòng" />Rất hài lòng<br>
+        <input type="checkbox" name="nguoidung" value="Bình thường" />Bình thường<br>
+        <input type="checkbox" name="nguoidung" value="Không hài lòng" />Không hài lòng<br>
+        <br>
+
+        <b>Nội dung góp ý</b><br>
+        <textarea name="info" row="5" cols="40">
+            Ghi chú
+        </textarea>
+        <br>
+        <div>
+            <input type="submit" name="submit" value="Gửi" /><br>
+
+            <input type="submit" name="submit" value="Reset" />
+        </div>
+    </form>
+</body>
+
+</html>
