@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Form đặt hàng </h3>
+    <form method="get">
+        <label>Tên khách hàng:</label><br>
+        <input name="name" type="text" value=""><br>
+
+        <label>Số điện thoại:</label><br>
+        <input name="pass" type="text" value=""><br>
+        <hr>
+        <h3>Sản phẩm</h3>
+        <select name="sanpham">
+            <option value="1">Áo</option>
+            <option value="2">Quần</option>
+            <option value="3">Giày</option>
+        </select><br>
+        <label>Số lượng:</label><br>
+        <input name="pass" type="number" value=""><br>
+        <h3>Thanh toán</h3>
+        <input type="radio" name="thanhtoan" value="Chuyển khoản" />Chuyển khoản<br>
+        <input type="radio" name="thanhtoan" value="Tiền mặt" />Tiền mặt<br>
+
+        <textarea name="info" row="5" cols="40">
+            Ghi chú
+        </textarea>
+        <br>
+
+        <input type="submit" name="submit" value="Submit" />
+    </form>
+</body>
+
+</html>
